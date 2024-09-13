@@ -1,0 +1,51 @@
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.upload-container {
+    background-color: #1C1C1E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-select, .form-control {
+    background-color: #1C1C1E;
+    color: white;
+    border: 1px solid #E50914;
+}
+
+.btn {
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #E50914;
+    color: white;
+}
+
+#progressBar {
+    background-color: #E50914;
+}
+
+canvas {
+    background-color: white;
+    border: 1px solid #E50914;
+}
+
+button#toggleMode {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
